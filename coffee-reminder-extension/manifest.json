@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Coffee Break Reminder",
+    "version": "1.0",
+    "description": "Reminds you to take a coffee break and stop procrastinating",
+    "permissions": ["alarms", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+    "48": "coffee-icon.png"
+  }
+}
